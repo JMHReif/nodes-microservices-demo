@@ -34,7 +34,7 @@ class MessageController {
 
 	@GetMapping
 	Flux<Review> getReviews() {
-		return client.get().uri("/neo/reviews").retrieve().bodyToFlux(Review.class);
+		return client.get().uri("/neo").retrieve().bodyToFlux(Review.class);
 	}
 }
 

@@ -29,7 +29,7 @@ public class BackendApplication {
 class ReviewController {
 	private final ReviewRepository repo;
 
-	@GetMapping("/reviews")
+	@GetMapping
 	Flux<Review> getReviews() { return repo.findFirst1000By(); }
 }
 
