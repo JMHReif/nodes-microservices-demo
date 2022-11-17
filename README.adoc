@@ -10,6 +10,12 @@ Each branch contains code for stepping through the project at three different st
 2. Interacting with a database - Adding a database underneath, with one Spring Boot application acting as backend API provider and the other application acting as client application.
 3. Managed microservices system - incorporating Docker Compose to manage and run a variety of containerized services together, including the configuration server and applications.
 
+== Presentation
+
+PDF versions of accompanying presentations are published to SpeakerDeck.
+
+* https://speakerdeck.com/jmhreif/divide-and-conquer-send-forth-the-microservices-9d6a6428-0a4f-4a43-b03d-31a9d7de4530[NODES 2022^]
+
 == Resources
 
 * https://github.com/JMHReif/microservices-java[Full microservices code project^]
